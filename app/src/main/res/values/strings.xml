@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Toters</string>
+    <string name="chat_page">Chat Page</string>
+    <string name="name">Name</string>
+    <string name="last_message">Last message</string>
+    <string name="time">Time</string>
+    <string name="type_something">Type Something...</string>
+    <string name="send">Send</string>
+    <string name="type_here">Type here</string>
+    <string name="message">Message</string>
+</resources>

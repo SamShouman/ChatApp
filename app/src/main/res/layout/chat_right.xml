@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentEnd="true"
+    android:padding="10dp">
+
+
+    <!-- put it and set its visibility to "gone" to avoid null pointer exception-->
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profileIv"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_launcher_background"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/messageTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="5dp"
+        android:background="@drawable/background_right"
+        android:textColor="#fafafa"
+        android:padding="10dp"
+        android:layout_alignParentEnd="true"
+        android:text="@string/message"
+        />
+
+
+
+
+</RelativeLayout>
